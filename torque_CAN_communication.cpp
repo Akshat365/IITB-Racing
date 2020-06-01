@@ -7,7 +7,7 @@
 
 Serial pc(USBTX, USBRX); // tx, rx
 
-///CAN related variables 
+////CAN related variables 
 CAN sensor_can(p9, p10);
 CAN motor_controller_can(p30, p29);
 
